@@ -85,7 +85,7 @@
                             <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
                             <branch>stagintg/mvn-repo</branch>                       <!-- remote branch name -->
                             <includes><include>**/*</include></includes>
-                            <repositoryName>pocthps</repositoryName>      <!-- github repo name -->
+                            <repositoryName>new</repositoryName>      <!-- github repo name -->
                             <repositoryOwner>pocthps</repositoryOwner>    <!-- github username  -->
                           </configuration>
                           <executions>
