@@ -83,7 +83,7 @@
                             <message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
                             <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
                             <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
-                            <branch>stagintg/mvn-repo</branch>                       <!-- remote branch name -->
+                            <branch>refs/heads/staging/mvn-repo</branch>                       <!-- remote branch name -->
                             <includes><include>**/*</include></includes>
                             <repositoryName>new</repositoryName>      <!-- github repo name -->
                             <repositoryOwner>pocthps</repositoryOwner>    <!-- github username  -->
