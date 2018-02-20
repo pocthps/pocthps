@@ -83,7 +83,7 @@
                           <configuration>
                             <message>Maven artifacts for ${project.version}</message>  
                             <noJekyll>true</noJekyll>                                  
-                            <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> 
+                            <outputDirectory>staging/${project.artifactId}</outputDirectory> 
                             <branch>refs/heads/master</branch>                       
                             <includes><include>**/*.jar</include></includes>
                             <repositoryName>new</repositoryName>      
