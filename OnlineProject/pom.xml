@@ -85,7 +85,7 @@
                             <noJekyll>true</noJekyll>                                  
                             <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> 
                             <branch>refs/heads/master</branch>                       
-                            <includes><include>**/*.jar</include></includes>
+                            <includes><include>${project.version}/*.jar</include></includes>
                             <repositoryName>new</repositoryName>      
                             <repositoryOwner>pocthps</repositoryOwner>    
                           </configuration>
