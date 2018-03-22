@@ -82,7 +82,8 @@
                           <version>0.12</version>
                           <configuration>
                             <message>Maven artifacts for ${project.version}</message>  
-                            <noJekyll>true</noJekyll>                                  
+                            <noJekyll>true</noJekyll>     
+		            <merge>true</merge>
                             <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> 
                             <branch>refs/heads/master</branch>                       
                             <includes><include>com/thps/training/springboot/firstproject/${project.version}/*.jar</include></includes>
